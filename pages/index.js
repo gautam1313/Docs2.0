@@ -10,7 +10,9 @@ export default function Home() {
         <title>Docs 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Header />
+
       <section className="bg-[#F8F9FA] pb-10 px-10">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center justify-between py-6">
@@ -36,6 +38,16 @@ export default function Home() {
             <p className="mt-2 ml-2 font-semibold text-sm text-gray-700">
               Blank
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white px-10 md:px-0">
+        <div className="max-w-3xl mx-auto py-8">
+          <div className="flex items-center justify-between text-gray-700 text-sm">
+            <h2 className="flex-grow">My Documents</h2>
+            <p className="mr-12">Date Created</p>
+            <Icon name="folder" size="3xl" color="gray" />
           </div>
         </div>
       </section>
